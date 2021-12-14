@@ -1,0 +1,70 @@
+ <!DOCTYPE html>
+ <head>
+ <title> First form </title>
+ </head>
+ <body>
+ <h2> Registration Form </h2>
+ <form>
+ <div> 
+ <label for="Name"> First name: </label>
+ <input type="text" name="name">
+  </div><br>
+   <div> 
+ <label for="Nam"> Last name: </label>
+ <input type="text" name="name">
+  </div><br>
+   <div> 
+ <label for="Email"> Email: </label>
+ <input type="email" name="email" id="email" required>
+  </div><br>
+   <div> 
+ <label for="Number"> Mobile number: </label>
+ <input type="number" name="number" id="number" required>
+  </div><br>
+   <div> 
+ <label for="dob"> Date of birth: </label>
+ <input type="date" name="dob" id="dob">
+  </div><br>
+   <div> 
+ <label for="Place"> Birth place: </label>
+ <input type="place" name="place" id="place">
+  </div><br>
+   <div> 
+ <label for="Gender"> Gender: </label>
+ <input type="radio" name="gender" value="male">Male
+ <input type="radio" name="gender" value="female">Female
+  </div><br>
+ <div> 
+ <label for="Religion"> Religion: </label>
+ <input type="radio" name="religion" value="Muslim" required>Muslim
+ <input type="radio" name="religion" value="Hindu" required>Hindu
+  </div><br>
+  <div> 
+     <label for="Age"> Age:</label>
+  <select> 
+   <option value="age"> Under 10 </option>
+  <option value="age" selected> Under 18 </option>
+  <option value="age"> Over 18 </option>
+  <option value="age"> Over 30 </option>
+  <option value="age"> under 0 </option>
+  </select>
+   </div><br>
+   
+    <div> 
+ <label for="Photo"> Upload File: </label>
+ <input type="file" name="photo" id="photo">
+  </div><br>
+  
+   <div> 
+ <label for="checkbox"></label>
+ <input type="checkbox" value="agree">I have read and agreed to all terms and conditions
+  </div><br>
+  
+   <div> 
+ <label for="Message"> Message: </label><br>
+ <textarea cols="28" rows="4">  </textarea>
+  </div><br>
+ <div>  
+ <input type="submit" value="Submit">
+ <input type="reset" value="Clear"> 
+ </div>
